@@ -1,0 +1,199 @@
+body {
+  margin: 0px;
+}
+.flex {
+  display: flex;
+}
+.center {
+  justify-content: center;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+.between {
+  justify-content: space-between;
+}
+
+.navbar,
+.main-container {
+  background-color: #1f2937;
+}
+.navbar {
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 0px calc(96px * 2) 0px calc(96px * 2);
+}
+.navlogo,
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.navlogo,
+.button button {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f8faf9;
+}
+
+.navlinks {
+  width: 40%;
+}
+
+.navlinks a {
+  color: E5E7EB;
+  text-decoration: none;
+}
+
+.navlinks a:hover {
+  text-decoration: underline;
+  transition: 2s;
+}
+
+.main-container {
+  padding: 96px calc(96px * 2) 96px calc(96px * 2);
+  background-image: url("https://images.pexels.com/photos/955938/pexels-photo-955938.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+}
+.thistext {
+  color: #f8faf9;
+  font-weight: 800;
+  font-size: 48px;
+}
+.image {
+  background-color: white;
+  background-image: url("https://images.pexels.com/photos/17260662/pexels-photo-17260662/free-photo-of-tattoos-on-man-back.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+  background-size: cover;
+  border-radius: 5px;
+  width: 75%;
+  height: 30vh;
+}
+
+.thissubtext {
+  color: E5E7EB;
+  font-size: 18px;
+}
+
+.button button {
+  border: none;
+  background-color: #3882f6;
+  font-size: 18px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  margin-top: 6px;
+  transition: 1s;
+}
+
+.button button:hover {
+  transform: scale(1.2);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 80px;
+}
+.cardsmaintext {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 800;
+  align-self: center;
+  margin: 25px;
+}
+
+.mycard {
+  width: 150px;
+  color: #1f2937;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.cardimage {
+  border: solid #3882f6 4px;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+.cardsubtext {
+  text-align: center;
+  font-weight: bold;
+}
+
+.cardcontn {
+  display: flex;
+  align-self: center;
+}
+
+.cimg1 {
+  background-image: url("https://images.pexels.com/photos/1433272/pexels-photo-1433272.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+}
+.cimg2 {
+  background-image: url("https://images.pexels.com/photos/1433273/pexels-photo-1433273.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+}
+.cimg3 {
+  background-image: url("https://images.pexels.com/photos/2713983/pexels-photo-2713983.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+}
+.cimg4 {
+  background-image: url("https://images.pexels.com/photos/1433270/pexels-photo-1433270.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+}
+
+.nextsect {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 120px 220px 120px 220px;
+}
+.nexttext {
+  font-familly: light italic;
+  font-size: 36px;
+  text-align: center;
+}
+.nextthor {
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+.call {
+  display: flex;
+  background-color: #3882f6;
+  color: white;
+  justify-content: space-between;
+  margin: 96px calc(96px * 2) 96px calc(96px * 2);
+  padding: 30px 55px 30px 55px;
+  border-radius: 10px;
+}
+
+.call button {
+  border: solid white 2px;
+}
+
+.callmain {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.callsub {
+  color: E5E7EB;
+  font-size: 18px;
+}
+
+.footer {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #1f2937;
+  padding: 25px 0px 25px 0px;
+}
